@@ -1,3 +1,3 @@
 # codewars-solutions
 
-These are my solutions of Katas on http://www.codewars.com/
+These are my solutions of Katas from http://www.codewars.com/
