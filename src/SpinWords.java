@@ -9,6 +9,6 @@ public class SpinWords {
             }
             result = result + s + " ";
         }
-        return result.substring(0, result.length()-1);
+        return result.substring(0, result.length() - 1);
     }
 }

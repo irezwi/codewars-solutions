@@ -3,7 +3,7 @@ import java.math.BigInteger;
 public class SumFct {
     public static BigInteger perimeter(BigInteger n) {
         BigInteger sum = BigInteger.valueOf(0);
-        for(BigInteger i = BigInteger.ZERO; i.compareTo(n) < 0; i = i.add(BigInteger.ONE)) {
+        for (BigInteger i = BigInteger.ZERO; i.compareTo(n) < 0; i = i.add(BigInteger.ONE)) {
             sum = sum.add(fibIteration(i));
         }
         return sum.multiply(new BigInteger("4"));
